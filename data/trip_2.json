@@ -1,0 +1,290 @@
+{
+    "begin": 1494383760,
+    "end": 1494386220,
+    "line": "H",
+    "trip": "DUASN123400F01001-1_4086",
+    "stops": [{
+        "stop": {
+            "uic8": 87276139,
+            "uic7": "8727613",
+            "stop_id": "StopPoint:DUA8727613",
+            "lat": 308.6055432146766,
+            "lon": 80,
+            "name": "PONTOISE",
+            "linkedSections": ["-pruned-"],
+            "linkedSubSections": ["-pruned-"]
+        },
+        "scheduledTime": 1494383760,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494383760
+    }, {
+        "stop": {
+            "uic8": 87276105,
+            "uic7": "8727610",
+            "stop_id": "StopPoint:DUA8727610",
+            "lat": 310.3466075348653,
+            "lon": 93.26665221730771,
+            "name": "SAINT-OUEN L'AUMONE",
+            "linkedSections": ["-pruned-", "-pruned-", "-pruned-"],
+            "linkedSubSections": ["-pruned-", "-pruned-", "-pruned-"]
+        },
+        "scheduledTime": 1494383940,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494383940
+    }, {
+        "stop": {
+            "uic8": 87337980,
+            "uic7": "8733798",
+            "stop_id": "StopPoint:DUA8733798",
+            "lat": 325.1260770714627,
+            "lon": 124.24313454761497,
+            "name": "SAINT-OUEN L'AUMONE LIESSE",
+            "linkedSections": ["-pruned-", "-pruned-", "-pruned-"],
+            "linkedSubSections": ["-pruned-", "-pruned-", "-pruned-"]
+        },
+        "scheduledTime": 1494384120,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494384120
+    }, {
+        "stop": {
+            "uic8": 87276097,
+            "uic7": "8727609",
+            "stop_id": "StopPoint:DUA8727609",
+            "lat": 344.5087953766528,
+            "lon": 159.56245200270834,
+            "name": "PIERRELAYE",
+            "linkedSections": ["-pruned-"],
+            "linkedSubSections": ["-pruned-", "-pruned-"]
+        },
+        "scheduledTime": 1494384300,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494384300
+    }, {
+        "stop": {
+            "uic8": 87276089,
+            "uic7": "8727608",
+            "stop_id": "StopPoint:DUA8727608",
+            "lat": 359.79727172349493,
+            "lon": 217.0347774664925,
+            "name": "MONTIGNY BEAUCHAMP",
+            "linkedSections": ["-pruned-"],
+            "linkedSubSections": ["-pruned-", "-pruned-"]
+        },
+        "scheduledTime": 1494384540,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494384540
+    }, {
+        "stop": {
+            "uic8": 87276071,
+            "uic7": "8727607",
+            "stop_id": "StopPoint:DUA8727607",
+            "lat": 377.6908188222908,
+            "lon": 266.0769722706098,
+            "name": "FRANCONVILLE LE PLESSIS BOUCHARD",
+            "linkedSections": ["-pruned-"],
+            "linkedSubSections": ["-pruned-", "-pruned-"]
+        },
+        "scheduledTime": 1494384720,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494384720
+    }, {
+        "stop": {
+            "uic8": 87276063,
+            "uic7": "8727606",
+            "stop_id": "StopPoint:DUA8727606",
+            "lat": 389.05602729320634,
+            "lon": 297.1136602634604,
+            "name": "CERNAY",
+            "linkedSections": ["-pruned-"],
+            "linkedSubSections": ["-pruned-", "-pruned-"]
+        },
+        "scheduledTime": 1494384900,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494384900
+    }, {
+        "stop": {
+            "uic8": 87276055,
+            "uic7": "8727605",
+            "stop_id": "StopPoint:DUA8727605",
+            "lat": 394.74515725700275,
+            "lon": 316.66176993944686,
+            "name": "ERMONT EAUBONNE",
+            "linkedSections": ["-pruned-", "-pruned-", "-pruned-"],
+            "linkedSubSections": ["-pruned-", "-pruned-", "-pruned-"]
+        },
+        "scheduledTime": 1494385080,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494385080
+    }, {
+        "stop": {
+            "uic8": 87276030,
+            "uic7": "8727603",
+            "stop_id": "StopPoint:DUA8727603",
+            "lat": 396.3087217664406,
+            "lon": 343.9443003968222,
+            "name": "CHAMP DE COURSES D'ENGHIEN",
+            "linkedSections": ["-pruned-"],
+            "linkedSubSections": ["-pruned-", "-pruned-"]
+        },
+        "scheduledTime": 1494385200,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494385200
+    }, {
+        "stop": {
+            "uic8": 87276022,
+            "uic7": "8727602",
+            "stop_id": "StopPoint:DUA8727602",
+            "lat": 405.05189259173324,
+            "lon": 363.55796734980044,
+            "name": "ENGHIEN LES BAINS",
+            "linkedSections": ["-pruned-"],
+            "linkedSubSections": ["-pruned-", "-pruned-"]
+        },
+        "scheduledTime": 1494385380,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494385380
+    }, {
+        "stop": {
+            "uic8": 87271171,
+            "uic7": "8727117",
+            "stop_id": "StopPoint:DUA8727117",
+            "lat": 413.4335380671854,
+            "lon": 376.19446696582196,
+            "name": "LA BARRE ORMESSON",
+            "linkedSections": ["-pruned-"],
+            "linkedSubSections": ["-pruned-", "-pruned-"]
+        },
+        "scheduledTime": 1494385500,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494385500
+    }, {
+        "stop": {
+            "uic8": 87271122,
+            "uic7": "8727112",
+            "stop_id": "StopPoint:DUA8727112",
+            "lat": 423.9490967086865,
+            "lon": 391.7984367934197,
+            "name": "EPINAY VILLETANEUSE",
+            "linkedSections": ["-pruned-", "-pruned-", "-pruned-"],
+            "linkedSubSections": ["-pruned-", "-pruned-", "-pruned-"]
+        },
+        "scheduledTime": 1494385620,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494385620
+    }, {
+        "stop": {
+            "uic8": 87271015,
+            "uic7": "8727101",
+            "stop_id": "StopPoint:DUA8727101",
+            "lat": 455.02983562995945,
+            "lon": 415.0231055953804,
+            "name": "SAINT-DENIS",
+            "linkedSections": ["-pruned-"],
+            "linkedSubSections": ["-pruned-", "-pruned-"]
+        },
+        "scheduledTime": 1494385860,
+        "realStop": true,
+        "nextPath": [],
+        "estimatedDelay": 0,
+        "estimatedTime": 1494385860
+    }, {
+        "stop": {
+            "uic8": 87271031,
+            "uic7": "8727103",
+            "stop_id": "StopPoint:DUA8727103",
+            "lat": 525,
+            "lon": 429.8979179543991,
+            "name": "PARIS NORD",
+            "linkedSections": ["-pruned-"],
+            "linkedSubSections": ["-pruned-"]
+        },
+        "scheduledTime": 1494386220,
+        "realStop": true,
+        "estimatedDelay": 0,
+        "estimatedTime": 1494386220
+    }],
+    "secs": 2460,
+    "ObservedBegin": 1494383760,
+    "ObservedEnd": 1494386220,
+    "atTime": {
+        "renderedAtTime": 1494385988,
+        "observed": {
+            "from": {
+                "uic8": 87271015,
+                "uic7": "8727101",
+                "stop_id": "StopPoint:DUA8727101",
+                "lat": 455.02983562995945,
+                "lon": 415.0231055953804,
+                "name": "PONTOISE",
+                "linkedSections": ["-pruned-"],
+                "linkedSubSections": ["-pruned-", "-pruned-"]
+            },
+            "to": {
+                "uic8": 87271031,
+                "uic7": "8727103",
+                "stop_id": "StopPoint:DUA8727103",
+                "lat": 525,
+                "lon": 429.8979179543991,
+                "name": "SAINT-OUEN L'AUMONE",
+                "linkedSections": ["-pruned-"],
+                "linkedSubSections": ["-pruned-"]
+            },
+            "timeRatio": 0.55555555555555557,
+            "pos": [416.3993623253028, 480.7398804806223],
+            "acceptedEdge": true,
+            "previousEstimatedDelay": 0,
+            "nextEstimatedDelay": 0,
+            "estimatedDelayEvolution": 0,
+            "estimatedDelay": 0
+        },
+        "scheduled": {
+            "from": {
+                "uic8": 87271015,
+                "uic7": "8727101",
+                "stop_id": "StopPoint:DUA8727101",
+                "lat": 455.02983562995945,
+                "lon": 415.0231055953804,
+                "name": "PONTOISE",
+                "linkedSections": ["-pruned-"],
+                "linkedSubSections": ["-pruned-", "-pruned-"]
+            },
+            "to": {
+                "uic8": 87271031,
+                "uic7": "8727103",
+                "stop_id": "StopPoint:DUA8727103",
+                "lat": 525,
+                "lon": 429.8979179543991,
+                "name": "SAINT-OUEN L'AUMONE",
+                "linkedSections": ["-pruned-"],
+                "linkedSubSections": ["-pruned-"]
+            },
+            "timeRatio": 0.35555555555555557,
+            "pos": [416.3993623253028, 480.7398804806223],
+            "acceptedEdge": true
+        }
+    }
+}

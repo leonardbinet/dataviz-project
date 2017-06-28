@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/png" href="images/train-fav.png" sizes="32x32" />
+        <title>Ligne H</title>
+        
+        <!-- Jquery slider css-->
+        <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.css">
+        
+        <!-- C3-->
+        <link rel="stylesheet" href="bower_components/c3/c3.css">
+        
+        <!-- Bootstrap core css-->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="styles/bootstrap-theme.min.css">
+        
+        <!-- DataTables css-->
+        <link rel="stylesheet" href="bower_components/datatables.net-dt/css/jquery.dataTables.min.css">
+                
+        <!-- Custom styles for map -->
+        <link rel="stylesheet" href="styles/main.css">
+
+    </head>
+    <body>
+        
+        <!-- Nav bar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Transilien's H line</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                </div><!--/.navbar-collapse -->
+            </div>
+        </nav>
+        
+        <!-- Main map section -->
+        <section class="white">
+            <div class="container-fluid">
+                <div class="row">
+                    
+                    <!-- Map -->
+                    <div id="map" class="col-md-8">
+                    </div>
+                    
+                    <div class="col-md-4">
+                        
+                        <!-- Panel group-->
+                        <div class="panel-group" id="accordion">
+                            <!-- Information panel -->
+                            <div class="panel panel-default" id="panel-info">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"><a data-toggle="collapse" data-target="#collapseOne" 
+                                    href="#collapseOne">Traffic status</a></h3>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                    Here is some information about traffic at time <b id ="slider-text" ></b>
+
+                                    <!-- List group -->
+                                      <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <button id="button" type="button" class="btn btn-default" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                            Start
+                                            </button> 
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="btn-group" data-toggle="buttons">
+                                              <label class="btn btn-default">
+                                                <input type="radio" name="options" id="scheduled" autocomplete="off"> Scheduled
+                                              </label>
+                                              <label class="btn btn-default active">
+                                                <input type="radio" name="options" id="observed" autocomplete="off" checked> Observed
+                                              </label>
+                                            </div>
+                                            
+                                        </li>
+                                        <li class="list-group-item">Number of trains not departed yet: <b id="nbNotYetTrains"></b></li>
+                                        <li class="list-group-item">
+                                            Number of active trains: <b id="nbActiveTrains"></b> (with <b id="nbDisplayError"></b> errors of display)
+                                        </li>
+                                        <li class="list-group-item">Number of arrived trains: <b id="nbFinishedTrains"></b></li>
+                                      </ul>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default" id="panel-trip-focus">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                            <a data-toggle="collapse" data-target="#collapseTwo" href="#collapseTwo" class="collapsed">Trip Focus</a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse">
+                                        <div class="panel-body">                                    
+                                            <div id="trip-zoom"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- Slider -->
+        <section class="grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>Time control: <b id="slider-title"></b></h4>
+                        <div id="slider"></div>
+                        <br/>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Speed control (real time x<b id="speed-value"></b>)</h4>
+                        <div id="speed"></div>
+                        <br/>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Refresh time (every <b id="timer-delay-value"></b> milliseconds, the lower the smoother)</h4>
+                        <div id="timer-delay"></div>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Active trains table -->
+        <section class="white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Active trains</h3>
+                        <table id="active-trains-table" class="display" width="100%"></table>
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+        
+        <!-- Active trains during day -->
+        <section class="grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Number of active trains during day compared to observed delay</h3>
+                        <div id="stacked-area-chart-active-trains">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- 3rd Party Dependencies -->
+        <script src="bower_components/es6-shim/es6-shim.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <script src="bower_components/moment/min/moment.min.js"></script>
+        <script src="bower_components/d3/d3.min.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+        <script src="bower_components/tether/dist/js/tether.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+            
+        <!-- D3 Plugins -->
+        <script src="bower_components/d3-tip/index.js"></script>
+        <script src="bower_components/c3/c3.js"></script>
+      
+        <!-- Custom -->
+        <script>
+            // on load, init global variable as H
+            window.H= {};
+        </script>
+        
+        <script src="scripts/sectionJam.js"></script>
+        <script src="scripts/tables.js"></script>
+        <script src="scripts/activeTrainsChart.js"></script> 
+        <script src="scripts/dataloader.js"></script>
+        <script src="scripts/graphs.js"></script>
+        <script src="scripts/trainFocus.js"></script>
+        <script src="scripts/main.js"></script>
+
+    </body>
+</html>

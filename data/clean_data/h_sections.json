@@ -1,0 +1,138 @@
+[
+    {
+        "points": [
+            {"StopPoint:DUA8727600": "CREIL"},
+            {"StopPoint:DUA8727640": "ST LEU D ESSERENT"},
+            {"StopPoint:DUA8727641": "PRECY SUR OISE"},
+            {"StopPoint:DUA8727644": "BORAN SUR OISE"},
+            {"StopPoint:DUA8727645": "BRUYERES SUR OISE"},
+            {"StopPoint:DUA8727646": "PERSAN BEAUMONT"}
+        ],
+        "name": "CREIL - PERSAN BEAUMONT"
+    },
+    {
+        "points":[
+            {"StopPoint:DUA8727646": "PERSAN BEAUMONT"},
+            {"StopPoint:DUA8727675": "NOINTEL MOURS"},
+            {"StopPoint:DUA8727650": "PRESLES COURCELLES"},
+            {"StopPoint:DUA8727649": "MONTSOULT MAFFLIERS"}
+        ],
+        "name": "PERSAN BEAUMONT - MONTSOULT MAFFLIERS"
+    },
+    {   
+        "points":[
+            {"StopPoint:DUA8727649": "MONTSOULT MAFFLIERS"},
+            {"StopPoint:DUA8727202": "VILLAINES"},
+            {"StopPoint:DUA8727655": "BELLOY SAINT-MARTIN"},
+            {"StopPoint:DUA8727656": "VIARMES"},
+            {"StopPoint:DUA8727203": "SEUGY"},
+            {"StopPoint:DUA8727657": "LUZARCHES"} 
+        ],
+        "name": "MONTSOULT MAFFLIERS - LUZARCHES"
+    },
+    {
+        "points":[
+            {"StopPoint:DUA8727649": "MONTSOULT MAFFLIERS"},
+            {"StopPoint:DUA8727648": "BOUFFEMONT MOISSELLES"},
+            {"StopPoint:DUA8727643": "DOMONT"},
+            {"StopPoint:DUA8727639": "ECOUEN EZANVILLE"},
+            {"StopPoint:DUA8727638": "SARCELLES SAINT-BRICE"},
+            {"StopPoint:DUA8727636": "GROSLAY"},
+            {"StopPoint:DUA8727634": "DEUIL MONTMAGNY"},
+            {"StopPoint:DUA8727112": "EPINAY VILLETANEUSE"}
+        ],
+        "name": "MONTSOULT MAFFLIERS - EPINAY VILLETANEUSE"
+    },
+    {
+        "points":[
+            {"StopPoint:DUA8727112": "EPINAY VILLETANEUSE"},
+            {"StopPoint:DUA8727101": "SAINT-DENIS"},
+            {"StopPoint:DUA8727103": "PARIS NORD"}
+        ],
+        "name": "EPINAY VILLETANEUSE - PARIS NORD"
+    },
+    {
+        "points":[
+            {"StopPoint:DUA8727112": "EPINAY VILLETANEUSE"},
+            {"StopPoint:DUA8727117": "LA BARRE ORMESSON"},
+            {"StopPoint:DUA8727602": "ENGHIEN LES BAINS"},
+            {"StopPoint:DUA8727603": "CHAMP DE COURSES D'ENGHIEN"},
+            {"StopPoint:DUA8727605": "ERMONT EAUBONNE"}
+        ],
+        "name": "EPINAY VILLETANEUSE - ERMONT EAUBONNE"
+    },
+    {   
+        "points":[
+            {"StopPoint:DUA8727610": "SAINT-OUEN L'AUMONE"},
+            {"StopPoint:DUA8727613": "PONTOISE"}
+        ],
+        "name": "SAINT-OUEN L'AUMONE - PONTOISE"
+    },
+    {   
+        "points":[
+            {"StopPoint:DUA8727610": "SAINT-OUEN L'AUMONE"},
+            {"StopPoint:DUA8733798": "SAINT-OUEN L'AUMONE LIESSE"}
+        ],
+        "name": "SAINT-OUEN L'AUMONE - SAINT-OUEN L'AUMONE LIESSE"
+    },
+    {   
+        "points":[
+            {"StopPoint:DUA8727610": "SAINT-OUEN L'AUMONE"},
+            {"StopPoint:DUA8727614": "EPLUCHES"}
+        ],
+        "name": "SAINT-OUEN L'AUMONE - EPLUCHES"
+    },
+    {   
+        "points":[
+            {"StopPoint:DUA8733798": "SAINT-OUEN L'AUMONE LIESSE"},
+            {"StopPoint:DUA8727614": "EPLUCHES"}
+        ],
+        "name": "SAINT-OUEN L'AUMONE LIESSE- EPLUCHES"
+    },
+    {
+        "points":[
+            {"StopPoint:DUA8727605": "ERMONT EAUBONNE"},
+            {"StopPoint:DUA8727606": "CERNAY"},
+            {"StopPoint:DUA8727607": "FRANCONVILLE LE PLESSIS BOUCHARD"},
+            {"StopPoint:DUA8727608": "MONTIGNY BEAUCHAMP"},
+            {"StopPoint:DUA8727609": "PIERRELAYE"},
+            {"StopPoint:DUA8733798": "SAINT-OUEN L'AUMONE LIESSE"}
+        ],
+        "name": "ERMONT EAUBONNE - SAINT-OUEN L'AUMONE LIESSE"
+    },
+    {
+        "points":[
+            {"StopPoint:DUA8727614": "EPLUCHES"},
+            {"StopPoint:DUA8727615": "PONT PETIT"},
+            {"StopPoint:DUA8727616": "CHAPONVAL"},
+            {"StopPoint:DUA8727654": "AUVERS SUR OISE"},
+            {"StopPoint:DUA8727653": "VALMONDOIS"}
+        ],
+        "name": "EPLUCHES - VALMONDOIS"
+    },
+    {
+        "points":[
+            {"StopPoint:DUA8727653": "VALMONDOIS"},
+            {"StopPoint:DUA8727652": "L'ISLE ADAM PARMAIN"},
+            {"StopPoint:DUA8727651": "CHAMPAGNE SUR OISE"},
+            {"StopPoint:DUA8727646": "PERSAN BEAUMONT"}
+        ],
+        "name": "VALMONDOIS - PERSAN BEAUMONT"
+    },
+    {
+        "points":[
+            {"StopPoint:DUA8727605": "ERMONT EAUBONNE"},
+            {"StopPoint:DUA8727658": "ERMONT HALTE"},
+            {"StopPoint:DUA8727659": "GROS NOYER SAINT-PRIX"},
+            {"StopPoint:DUA8727660": "SAINT-LEU LA FORET"},
+            {"StopPoint:DUA8727662": "VAUCELLES"},
+            {"StopPoint:DUA8727663": "TAVERNY"},
+            {"StopPoint:DUA8727664": "BESSANCOURT"},
+            {"StopPoint:DUA8727665": "FREPILLON"},
+            {"StopPoint:DUA8727666": "MERY SUR OISE"},
+            {"StopPoint:DUA8727667": "MERIEL"},
+            {"StopPoint:DUA8727653": "VALMONDOIS"}
+        ],
+        "name": "ERMONT EAUBONNE - VALMONDOIS"
+    }
+]

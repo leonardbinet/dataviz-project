@@ -1,0 +1,6 @@
+# bower_components/*
+
+hidden/*
+
+# To big
+*.pickle

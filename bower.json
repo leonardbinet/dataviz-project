@@ -1,0 +1,19 @@
+{
+  "name": "transilien-viz",
+  "version": "0.0.0",
+  "dependencies": {
+    "d3": "~3.5",
+    "d3-tip": "~0.6.4",
+    "d3-selection": "~1.1.0",
+    "underscore": "~1.6.0",
+    "moment": "~2.6.0",
+    "es6-shim": "~0.10.1",
+    "jquery": "~2.1.0",
+    "jquery-ui":"~1.12.1",
+    "bootstrap": "~3.3.7",
+    "tether": "~1.4.0",
+    "c3":"~0.4.11",
+    "datatables.net": "~1.10.15",
+    "datatables.net-dt": "~1.10.15"
+  }
+}

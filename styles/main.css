@@ -1,0 +1,103 @@
+/* PAGE DISPLAY */
+body {
+  padding-top: 40px;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section.white {
+    background:white
+}
+
+section.grey {
+    background: rgba(245, 245, 245, 0.62) 
+}
+
+.jumbotron {
+    padding: 4rem 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+
+/* MAP DISPLAY */
+
+text {
+    pointer-events: none;
+}
+
+
+.section { 
+    stroke: DimGray;/*#a15256;*/
+    stroke-width: 2;
+    fill: none;
+    opacity: .8;
+
+}
+
+.section-jam {
+    stroke: Grey;
+    stroke-width: 0.2;
+}
+
+.section-jam:hover {
+    stroke-width: 0.9;
+}
+
+.train.scheduled {
+    stroke: DimGray;
+    stroke-width: 0.5;
+}
+
+.train.observed {
+    stroke: DimGray;
+    stroke-width: 0.5;
+}
+
+.train:hover {
+    stroke-width: 1.5;
+}
+
+.station { 
+    opacity: .6;
+    fill: gray;
+}
+
+.station:hover {
+    stroke: DimGray;
+    stroke-width: 1.5;
+}
+
+
+.station-name {
+    font-size: 12px;
+    font-weight: bold;
+    font-family:Arial;
+}
+.station-name.hover {
+    opacity: 1
+}
+
+.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 200px;
+    min-height: 30px;
+    overflow: hidden;
+    padding: 2px;
+    font-size: x-small;
+    font: Arial;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+td {
+    font-size: 12px;
+}
